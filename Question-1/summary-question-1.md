@@ -4,7 +4,13 @@ Task:
 Download and preprocess CO2 emissions data along with a wide range of socio-economic
 and environmental indicators from the World Bank’s Climate Change database.
 
-## Key Indicators
+## Preprocessing
+
+K-Nearest Neighbors (KNN) imputation is employed to address missing values in datasets with various indicators by leveraging its capacity to preserve the underlying data structure. The process begins by removing non-numeric columns, such as 'country' and 'date', to isolate the numeric data. This data is then standardized using StandardScaler, which transforms features to have a mean of zero and a standard deviation of one, ensuring that each feature contributes equally to distance calculations. After standardization, KNNImputer with three neighbors is used to estimate and fill in missing values based on the similarity of data points in the scaled space. The imputed values are then reverted to their original scale using the inverse transform of StandardScaler. Finally, the dataset is reconstructed by reattaching the non-numeric columns to the imputed numeric data, resulting in a comprehensive dataset that integrates both original and imputed values. This approach effectively combines KNN imputation with standardized feature scaling, ensuring accurate and contextually relevant handling of missing data.
+
+KNN imputation is a robust method due to its flexibility and its effectiveness in maintaining data relationships. Unlike parametric methods that rely on specific assumptions about data distribution, KNN imputes missing values based on the similarity to neighboring data points, thus preserving the inherent structure of the data. This method is particularly advantageous for datasets with diverse and interrelated indicators, as it accommodates various feature distributions without distorting the data. Standardizing the data before imputation is essential, as it ensures equal contribution from all features, preventing those with larger scales from disproportionately affecting the imputation. This approach not only improves the accuracy of the imputed values but also maintains the multivariate nature of the data, making KNN imputation a practical and effective choice for complex datasets with missing values.
+
+## Key statistics
 
 | Indicator                                                                                                          | count       | mean           | std            | min           | 25%           | 50%           | 75%           | max           |
 |--------------------------------------------------------------------------------------------------------------------|-------------|----------------|----------------|---------------|---------------|---------------|---------------|---------------|
