@@ -6,23 +6,25 @@ and environmental indicators from the World Bank’s Climate Change database.
 
 ## Data acquisition
 
-The following code list describes the indicators present in this dataset:
+The data for this task was acquired using Wbdata, a Python interface for accessing and retrieving information from the World Bank's databases.
 
-* EN.ATM.CO2E.KT: Total CO2 emissions (kt) - Measures the total amount of carbon dioxide emissions in kilotons.
+The dataset includes the following indicators:
 
-* NY.GDP.MKTP.CD: Gross Domestic Product (GDP) at current prices (USD) - Measures the total value of all goods and services produced within a country in current US dollars.
+* EN.ATM.CO2E.KT: Total CO2 emissions (kt) - The total amount of carbon dioxide emissions, measured in kilotons.
 
-* SP.POP.TOTL: Total population - Measures the total number of people living in a country.
+* NY.GDP.MKTP.CD: Gross Domestic Product (GDP) at current prices (USD) - The total value of all goods and services produced within a country, measured in current US dollars.
 
-* EG.USE.PCAP.KG.OE: Energy use per capita (kg of oil equivalent) - Measures the amount of energy consumed per person in kilograms of oil equivalent.
+* SP.POP.TOTL: Total population - The total number of people residing in a country.
 
-* SP.URB.TOTL.IN.ZS: Urban population (% of total population) - Measures the percentage of the total population that lives in urban areas.
+* EG.USE.PCAP.KG.OE: Energy use per capita (kg of oil equivalent) - The amount of energy consumed per person, measured in kilograms of oil equivalent.
 
-* SE.TER.CUAT.BA.ZS: Tertiary education attainment (% of population aged 25-64 with a bachelor's degree or higher) - Measures the percentage of people aged 25-64 who have completed tertiary education.
+* SP.URB.TOTL.IN.ZS: Urban population (% of total population) - The percentage of the total population living in urban areas.
 
-* IS.VEH.NVEH.P3: Number of vehicles per capita - Measures the number of vehicles available per person in a country.
+* SE.TER.CUAT.BA.ZS: Tertiary education attainment (% of population aged 25-64 with a bachelor's degree or higher) - The percentage of individuals aged 25-64 who have completed tertiary education.
 
-* EG.ELC.RNEW.ZS: Renewable electricity consumption (% of total electricity consumption) - Measures the percentage of electricity consumed that comes from renewable sources.
+* IS.VEH.NVEH.P3: Number of vehicles per capita - The number of vehicles available per person in a country.
+
+* EG.ELC.RNEW.ZS: Renewable electricity consumption (% of total electricity consumption) - The percentage of electricity consumed that is generated from renewable sources.
 
 ## Preprocessing
 
