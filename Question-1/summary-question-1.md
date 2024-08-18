@@ -19,4 +19,8 @@ and environmental indicators from the World Bank’s Climate Change database.
 
 ## Indicators distributions
 
-![ScreenShot](/Question-1/whisker-plots.png)
+![IndicatorsDistribution](/Question-1/whisker-plots.png)
+
+## Indicators correlation
+
+![HeatMap](/Question-1/heatmap-question-1.png)
