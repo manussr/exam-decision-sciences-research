@@ -9,4 +9,4 @@
 | Passenger_cars_per_1000_people                                                                                     | 5690.000000 | 92.446888      | 81.965917      | 0.300000      | 20.333333     | 53.696807     | 162.379518    | 290.000000    |
 | Renewable_electricity_output_percentage_of_total                                                                   | 5690.000000 | 25.832625      | 28.969410      | 0.000000      | 1.254077      | 16.874250     | 41.757445     | 100.000000    |
 
-![alt](C:\Users\essrd\OneDrive\Documentos\GitHub\exam-decision-sciences-research\Question-1\whisker-plots.png)
+![alt](Question-1\whisker-plots.png)
