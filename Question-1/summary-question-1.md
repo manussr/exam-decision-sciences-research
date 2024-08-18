@@ -4,6 +4,26 @@ Task:
 Download and preprocess CO2 emissions data along with a wide range of socio-economic
 and environmental indicators from the World Bank’s Climate Change database.
 
+## Data acquisition
+
+The following code list describes the indicators present in this dataset:
+
+* EN.ATM.CO2E.KT: Total CO2 emissions (kt) - Measures the total amount of carbon dioxide emissions in kilotons.
+
+* NY.GDP.MKTP.CD: Gross Domestic Product (GDP) at current prices (USD) - Measures the total value of all goods and services produced within a country in current US dollars.
+
+* SP.POP.TOTL: Total population - Measures the total number of people living in a country.
+
+* EG.USE.PCAP.KG.OE: Energy use per capita (kg of oil equivalent) - Measures the amount of energy consumed per person in kilograms of oil equivalent.
+
+* SP.URB.TOTL.IN.ZS: Urban population (% of total population) - Measures the percentage of the total population that lives in urban areas.
+
+* SE.TER.CUAT.BA.ZS: Tertiary education attainment (% of population aged 25-64 with a bachelor's degree or higher) - Measures the percentage of people aged 25-64 who have completed tertiary education.
+
+* IS.VEH.NVEH.P3: Number of vehicles per capita - Measures the number of vehicles available per person in a country.
+
+* EG.ELC.RNEW.ZS: Renewable electricity consumption (% of total electricity consumption) - Measures the percentage of electricity consumed that comes from renewable sources.
+
 ## Preprocessing
 
 K-Nearest Neighbors (KNN) imputation is employed to address missing values in datasets with various indicators by leveraging its capacity to preserve the underlying data structure. The process begins by removing non-numeric columns, such as 'country' and 'date', to isolate the numeric data. This data is then standardized using StandardScaler, which transforms features to have a mean of zero and a standard deviation of one, ensuring that each feature contributes equally to distance calculations. After standardization, KNNImputer with three neighbors is used to estimate and fill in missing values based on the similarity of data points in the scaled space. The imputed values are then reverted to their original scale using the inverse transform of StandardScaler. Finally, the dataset is reconstructed by reattaching the non-numeric columns to the imputed numeric data, resulting in a comprehensive dataset that integrates both original and imputed values. This approach effectively combines KNN imputation with standardized feature scaling, ensuring accurate and contextually relevant handling of missing data.
