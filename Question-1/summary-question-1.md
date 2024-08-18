@@ -19,4 +19,4 @@ and environmental indicators from the World Bank’s Climate Change database.
 
 ## Indicators distributions
 
-![alt](Question-1\whisker-plots.png)
+![ScreenShot](/Question-1/whisker-plots.png)
