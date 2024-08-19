@@ -13,7 +13,7 @@ Please refer to the instructions provided below, which apply to each task.
 ## Files
 
 - **`requirements.txt`**: Contains a list of Python packages required to run the Jupyter Notebook. Use this file to set up your environment with all necessary dependencies.
-- **`script.ipynb`**: A Jupyter Notebook containing the analysis, code, and visualizations. This notebook provides a step-by-step exploration of the data and findings.
+- **`question-n.ipynb`**: A Jupyter Notebook containing the analysis, code, and visualizations. This notebook provides a step-by-step exploration of the data and findings.
 
 ## Getting Started
 
@@ -40,4 +40,20 @@ Make sure you have Python and pip installed on your machine. You can download Py
 
    ```bash
     pip install -r requirements.txt
+
+### Running the scripts
+
+1. **Start Jupyter Notebook:**:
+
+   ```bash
+   jupyter notebook
+
+2. **Open the notebook:**
+
+    In your browser, navigate to the Jupyter interface and open the corresponding notebook (eg., question-1.ipynb).
+
+
+3. **Execute cells:**
+
+   Run each cell in the notebook to perform the analysis and view the results.
 
