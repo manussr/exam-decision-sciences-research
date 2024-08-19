@@ -28,3 +28,10 @@ Make sure you have Python and pip installed on your machine. You can download Py
    ```bash
     python -m venv env
     source env/bin/activate  # On Windows, use `env\Scripts\activate`
+
+
+3. **Install dependencies:**
+
+   ```bash
+    pip install -r requirements.txt
+
