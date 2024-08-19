@@ -22,3 +22,9 @@ Make sure you have Python and pip installed on your machine. You can download Py
    ```bash
    git clone [repository_url]
    cd [repository_directory]
+
+2. **Create a virtual environment (optional but recommended):**
+
+   ```bash
+    python -m venv env
+    source env/bin/activate  # On Windows, use `env\Scripts\activate`
