@@ -47,7 +47,7 @@ KNN imputation is a robust method due to its flexibility and its effectiveness i
 
 In the next plot, we observe the trend of CO2 emissions over time. It is evident that CO2 emissions have consistently increased each year, except for a decline observed in 2020. This decrease may be attributed to external factors, such as significant global socioeconomic events. 
 
-![CO2EmissionsOverTime](/Question-1/co2-emissions-over-time.png)
+![CO2EmissionsOverTime](/Question-1/images/co2-emissions-over-time.png)
 
 In this chart, we visualize the relationship between three variables. From the data, we derive the following insights:
 
@@ -55,14 +55,14 @@ As GDP increases, CO2 emissions also tend to increase, indicating that economic 
 The color gradient illustrates that countries with higher levels of urbanization tend to exhibit higher CO2 emissions.
 It's important to note that there is considerable overlap between data points of different colors, suggesting that urbanization alone does not solely determine CO2 emissions levels.
 
-![CO2GDPUrb](/Question-1/co2-emissions-gdp-urbanization.png)
+![CO2GDPUrb](/Question-1/images/co2-emissions-gdp-urbanization.png)
 
 
 ## Indicators distributions
 
 In the next figure, distributions of variables from the dataset are displayed. The y-axis for CO2 emissions, GDP, total population, and energy use per capita has been set to a logarithmic scale for improved visualization. Outlier values were identified using the interquartile range (IQR) method with a threshold of 1.5 times the IQR above the third quartile and below the first quartile. Notably, these indicators exhibit outlier values, particularly in CO2 emissions, GDP, and total population, which account for 17.47%, 18.58%, and 20.09% of the dataset, respectively.
 
-![IndicatorsDistribution](/Question-1/whisker-plots.png)
+![IndicatorsDistribution](/Question-1/images/whisker-plots.png)
 
 
 
@@ -79,6 +79,6 @@ Key observations include:
 * A negative correlation is observed between the number of vehicles per capita and renewable electricity consumption, indicating that higher vehicle ownership may be associated with lower renewable energy use.
 
 
-![HeatMap](/Question-1/heatmap-question-1.png)
+![HeatMap](/Question-1/images/heatmap-question-1.png)
 
 
