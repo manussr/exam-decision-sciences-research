@@ -8,12 +8,11 @@ factors remain constant?
 
 ## Scenario analysis
 
-
-
 The goal is to develop a predictive model using XGBoost to forecast CO2 emissions based on a comprehensive set of socio-economic and environmental indicators. The model is then used to answer an analytical question: "If a country increases its GDP by 10%, what is the expected percentage change in CO2 emissions, assuming all other factors remain constant?"
 
 
 ### Data preparation
+
 The dataset, extended_data_imputed, contains several indicators, with 'CO2_emissions' as the target variable. The non-numeric columns 'date' and 'country' are excluded from the features (X), leaving the indicators as predictors.
 
 To address the posed question, the GDP for each country is increased by 10% in the dataset, simulating a scenario where GDP growth is observed while all other indicators remain unchanged.
