@@ -2,7 +2,7 @@
  
 ## Overview
 
-This project aims to solve the exam propo using data from the World Bank. The analysis is carried out using a Jupyter Notebook, which contains the code, visualizations, and explanations related to each task.
+This is my submission for the Practical Exam at the Decision Sciences Research Center, Tecnológico de Monterrey. For each task, you'll find a folder containing the script, any necessary data files, and a markdown file summarizing the results.
 
 ## Files
 
