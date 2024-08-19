@@ -68,16 +68,14 @@ The table below displays the optimal parameters identified for the model:
 ### Model performance
 
 * Root Mean Squared Error (RMSE): 180,144.51
-This value represents the standard deviation of the residuals (prediction errors). A lower RMSE indicates better model performance, and in this case, the model demonstrates high accuracy in predicting CO2 emissions.
+This value represents the standard deviation of the residuals (prediction errors). A lower RMSE indicates better model performance. In this case, the model demonstrates high accuracy in predicting CO2 emissions.
 
 * R-squared: 0.9964
-The R-squared value indicates that approximately 99.64% of the variance in CO2 emissions is explained by the model. This suggests a strong relationship between the predictors and the target variable, with the model capturing nearly all the variance.
+The R-squared value indicates that approximately 99.64% of the variance in CO2 emissions is explained by the model. This suggests a strong relationship between the predictors and the target variable, with the model effectively capturing nearly all the variance.
 
 * Cross-Validated RMSE (Best Model): 155,138.91
-The cross-validated RMSE provides an estimate of the model's performance on unseen data. The value indicates the model’s predictive accuracy is consistent across different folds of the data, validating its robustness.
+The cross-validated RMSE provides an estimate of the model's performance on unseen data. This value indicates that the model’s predictive accuracy is consistent across different folds of the data, validating its robustness.
 
-The identified hyperparameters suggest a well-balanced model that avoids overfitting while capturing the essential relationships between the predictors and CO2 emissions.
-The very high R-squared value confirms the model's effectiveness in explaining the relationship between socio-economic indicators and CO2 emissions.
-The relatively low RMSE values (both train-test and cross-validated) indicate that the model is precise in its predictions, making it a reliable tool for forecasting and scenario analysis.
+The identified hyperparameters suggest a well-balanced model that avoids overfitting while capturing the essential relationships between the predictors and CO2 emissions. The very high R-squared value confirms the model's effectiveness in explaining the relationship between socio-economic indicators and CO2 emissions. The relatively low RMSE values, both in training and cross-validation, highlight the model's precision, making it a reliable tool for forecasting and scenario analysis.
 
-The model is highly accurate and robust, making it a strong candidate for predicting CO2 emissions based on the given set of indicators. The results suggest that the model is well-calibrated to provide reliable insights into the potential environmental impact of economic and social changes.
+Overall, the model is highly accurate and robust, making it a strong candidate for predicting CO2 emissions based on the given set of indicators. The results suggest that the model is well-calibrated to provide reliable insights into the potential environmental impact of economic and social changes.
