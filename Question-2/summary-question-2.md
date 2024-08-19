@@ -46,8 +46,38 @@ The grid search identifies the best combination of parameters, and the final mod
 The model's performance is assessed using Root Mean Squared Error (RMSE) and R-squared metrics. Cross-validation results are also considered to validate the model's robustness.
 A low RMSE and a high R-squared value indicate the model's ability to accurately predict CO2 emissions based on the given indicators.
 
-
-
-
-
 ## Results
+
+### Fine-tuning results
+
+The XGBoost model was fine-tuned using GridSearchCV, evaluating 2,916 different parameter combinations across 5 folds, resulting in a total of 14,580 fits. The objective was to find the optimal set of hyperparameters for predicting CO2 emissions based on acquired socio-economic and environmental indicators.
+
+The table below displays the optimal parameters identified for the model:
+
+| **Parameter**          | **Value**                                    |
+|------------------------|----------------------------------------------|
+| **alpha**              | 0.5 (L1 regularization)                      |
+| **colsample_bytree**   | 0.8 (percentage of features used per tree)   |
+| **gamma**              | 0 (minimum loss reduction to make a further partition) |
+| **lambda**             | 1.0 (L2 regularization)                      |
+| **learning_rate**      | 0.1 (step size shrinkage)                    |
+| **max_depth**          | 5 (maximum depth of a tree)                  |
+| **n_estimators**       | 300 (number of trees)                        |
+| **subsample**          | 0.8 (fraction of samples used for each tree) |
+
+### Model performance
+
+* Root Mean Squared Error (RMSE): 180,144.51
+This value represents the standard deviation of the residuals (prediction errors). A lower RMSE indicates better model performance, and in this case, the model demonstrates high accuracy in predicting CO2 emissions.
+
+* R-squared: 0.9964
+The R-squared value indicates that approximately 99.64% of the variance in CO2 emissions is explained by the model. This suggests a strong relationship between the predictors and the target variable, with the model capturing nearly all the variance.
+
+* Cross-Validated RMSE (Best Model): 155,138.91
+The cross-validated RMSE provides an estimate of the model's performance on unseen data. The value indicates the model’s predictive accuracy is consistent across different folds of the data, validating its robustness.
+
+The identified hyperparameters suggest a well-balanced model that avoids overfitting while capturing the essential relationships between the predictors and CO2 emissions.
+The very high R-squared value confirms the model's effectiveness in explaining the relationship between socio-economic indicators and CO2 emissions.
+The relatively low RMSE values (both train-test and cross-validated) indicate that the model is precise in its predictions, making it a reliable tool for forecasting and scenario analysis.
+
+The model is highly accurate and robust, making it a strong candidate for predicting CO2 emissions based on the given set of indicators. The results suggest that the model is well-calibrated to provide reliable insights into the potential environmental impact of economic and social changes.
