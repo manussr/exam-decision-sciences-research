@@ -57,3 +57,7 @@ Make sure you have Python and pip installed on your machine. You can download Py
 
    Run each cell in the notebook to perform the analysis and view the results.
 
+
+### Results
+
+For each task, there is a separate Markdown file that provides a summary and explanation of the results.
