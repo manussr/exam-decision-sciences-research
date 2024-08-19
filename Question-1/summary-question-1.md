@@ -6,7 +6,7 @@ and environmental indicators from the World Bank’s Climate Change database.
 
 ## Data acquisition
 
-The data for this task was obtained using Wbdata, a Python interface for accessing and retrieving information from the World Bank's databases. The dataset spans from January 1, 2000, to January 1, 2020.
+The data for this task was obtained using Wbdata, a Python interface for accessing and retrieving information from the World Bank's databases. The dataset spans from January 1, 2000, to January 1, 2020. Once you run the script question-1.ipynb, it will create 2 files: world_bank_extended_data.csv and world_bank_extended_data_imputed.csv . The later was used for creating this file.
 
 The dataset includes the following indicators:
 
