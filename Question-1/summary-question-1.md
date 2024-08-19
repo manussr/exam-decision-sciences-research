@@ -47,7 +47,7 @@ KNN imputation is a robust method due to its flexibility and its effectiveness i
 
 ## Indicators distributions
 
-In the next figure, distributions of variables from the dataset are displayed. The y-axis for CO2 emissions, GDP, total population, and energy use per capita has been set to a logarithmic scale for improved visualization. Notably, these indicators exhibit outlier values, particularly in CO2 emissions, GDP, and total population, which account for 17.47%, 18.58%, and 20.09% of the dataset, respectively.
+In the next figure, distributions of variables from the dataset are displayed. The y-axis for CO2 emissions, GDP, total population, and energy use per capita has been set to a logarithmic scale for improved visualization. Outlier values were identified using the interquartile range (IQR) method with a threshold of 1.5 times the IQR above the third quartile and below the first quartile. Notably, these indicators exhibit outlier values, particularly in CO2 emissions, GDP, and total population, which account for 17.47%, 18.58%, and 20.09% of the dataset, respectively.
 
 ![IndicatorsDistribution](/Question-1/whisker-plots.png)
 
