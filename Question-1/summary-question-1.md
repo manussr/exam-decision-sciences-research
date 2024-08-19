@@ -50,11 +50,18 @@ KNN imputation is a robust method due to its flexibility and its effectiveness i
 ![IndicatorsDistribution](/Question-1/whisker-plots.png)
 
 ## Correlation Heatmap
-The following figure shows the correlations between the variables in the dataset. Warmer colors are associated to more correlated variables.
+
+The following figure illustrates the correlations between the variables in the dataset. Warmer colors indicate stronger correlations.
+
+Key observations include:
+
+* CO2 emissions show high correlations with GDP and total population, reflecting how economic output and population size impact carbon emissions.
+* GDP is also highly correlated with total population, suggesting that larger populations may drive higher economic output.
+* There is a notable correlation between the urban population and the number of vehicles per capita, indicating that more urbanized regions tend to have more vehicles.
+* The urban population is positively correlated with tertiary education attainment, suggesting that more urban areas have higher levels of educational attainment.
+* A negative correlation is observed between the number of vehicles per capita and renewable electricity consumption, indicating that higher vehicle ownership may be associated with lower renewable energy use.
+
+
 ![HeatMap](/Question-1/heatmap-question-1.png)
 
-We can see there are highly correlated variables such as CO2 emissions with GDP and total population, GDP with population total.
 
-It is also interesting to note the correlation between the urban population and the number of vehicles per capita. Also the urban population is positively correlated with Tertiary education attainment. 
-
-Finally, we can see that there is a negative correlation between the number of vehicles per capita with Renewable electricity consumption.
