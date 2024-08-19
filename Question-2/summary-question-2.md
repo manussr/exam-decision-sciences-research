@@ -50,7 +50,7 @@ A low RMSE and a high R-squared value indicate the model's ability to accurately
 
 ### Fine-tuning results
 
-The XGBoost model was fine-tuned using GridSearchCV, evaluating 2,916 different parameter combinations across 5 folds, resulting in a total of 14,580 fits. The objective was to find the optimal set of hyperparameters for predicting CO2 emissions based on acquired socio-economic and environmental indicators.
+The XGBoost model was fine-tuned using GridSearchCV, evaluating 2,916 different parameter combinations across 5 folds, resulting in a total of 14,580 fits. The objective was to find the optimal set of hyperparameters for predicting CO2 emissions based on acquired socio-economic and environmental indicators. The prediction results will be saved in a file called extended_data_imputed_with_predictions.csv
 
 The table below displays the optimal parameters identified for the model:
 
